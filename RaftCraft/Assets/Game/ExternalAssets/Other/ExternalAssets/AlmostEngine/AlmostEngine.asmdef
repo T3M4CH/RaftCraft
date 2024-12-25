@@ -1,0 +1,10 @@
+{
+    "name": "AlmostEngine",
+    "references": [
+        "AlmostEngine.Shared",
+        "UnityEditor.UI",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

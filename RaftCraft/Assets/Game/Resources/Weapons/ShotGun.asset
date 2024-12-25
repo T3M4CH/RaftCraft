@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d650c043e5a7294fb57230cf94d7d7a, type: 3}
+  m_Name: ShotGun
+  m_EditorClassIdentifier: 
+  _assetLoaded: {fileID: 4900000, guid: 37399917740b54047a1672a205ab9713, type: 3}
+  <CurrentId>k__BackingField: 1
+  _levelUpgrade:
+  - <Cost>k__BackingField: 0
+    <Damage>k__BackingField: 80
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.8
+    <Spread>k__BackingField: 1
+    <ChangeCritical>k__BackingField: 20
+  - <Cost>k__BackingField: 200
+    <Damage>k__BackingField: 90
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.8
+    <Spread>k__BackingField: 1.2
+    <ChangeCritical>k__BackingField: 22
+  - <Cost>k__BackingField: 250
+    <Damage>k__BackingField: 100
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.78
+    <Spread>k__BackingField: 1.4
+    <ChangeCritical>k__BackingField: 24
+  - <Cost>k__BackingField: 300
+    <Damage>k__BackingField: 120
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.76
+    <Spread>k__BackingField: 1.6
+    <ChangeCritical>k__BackingField: 26
+  - <Cost>k__BackingField: 400
+    <Damage>k__BackingField: 140
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.74
+    <Spread>k__BackingField: 1.8
+    <ChangeCritical>k__BackingField: 28
+  - <Cost>k__BackingField: 500
+    <Damage>k__BackingField: 150
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.72
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 30
+  - <Cost>k__BackingField: 600
+    <Damage>k__BackingField: 160
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.7
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 32
+  - <Cost>k__BackingField: 700
+    <Damage>k__BackingField: 170
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.68
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 34
+  - <Cost>k__BackingField: 800
+    <Damage>k__BackingField: 180
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.66
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 36
+  - <Cost>k__BackingField: 900
+    <Damage>k__BackingField: 200
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.64
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 38
+  - <Cost>k__BackingField: 1250
+    <Damage>k__BackingField: 228
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.62
+    <Spread>k__BackingField: 2
+    <ChangeCritical>k__BackingField: 40
+  <PrefabBullet>k__BackingField: {fileID: 7551688023724050202, guid: 01c08943542a4c1448fd4620ebb29cab,
+    type: 3}

@@ -1,0 +1,1896 @@
+[
+  {
+    "DayId": 0,
+    "FishPerLevels": []
+  },
+  {
+    "DayId": 1,
+    "FishPerLevels": [
+      {
+        "yMax": 0.0,
+        "yMin": 0.0,
+        "FishCount": []
+      }
+    ]
+  },
+  {
+    "DayId": 2,
+    "FishPerLevels": [
+      {
+        "yMax": 0.0,
+        "yMin": 0.0,
+        "FishCount": []
+      }
+    ]
+  },
+  {
+    "DayId": 3,
+    "FishPerLevels": [
+      {
+        "yMax": 0.0,
+        "yMin": 0.0,
+        "FishCount": []
+      }
+    ]
+  },
+  {
+    "DayId": 4,
+    "FishPerLevels": [
+      {
+        "yMax": 0.0,
+        "yMin": 0.0,
+        "FishCount": []
+      }
+    ]
+  },
+  {
+    "DayId": 5,
+    "FishPerLevels": [
+      {
+        "yMax": 0.0,
+        "yMin": 0.0,
+        "FishCount": []
+      }
+    ]
+  },
+  {
+    "DayId": 6,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -10.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 7,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 2
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 8,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 9,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 10,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 11,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 12,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 13,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 4
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 14,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 4
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 15,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 4
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 16,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 4
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 17,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 4
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 18,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 4,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 5
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 19,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 4,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 5
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 20,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 4,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 5
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 21,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 4,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 22,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 4,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 23,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 5
+          }
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 24,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 5
+          }
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 25,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          }
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 6
+          }
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 26,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          }
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 6
+          }
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 27,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          }
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          }
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          }
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          }
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          }
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 6
+          }
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 7
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 28,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 8
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 29,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 8
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 30,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 9
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 31,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 9
+          },
+        ]
+      },
+      {
+        "yMax": -50.0,
+        "yMin": -65.0,
+        "FishCount": [
+          {
+            "Count": 1,
+            "FishLevel": 10
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 32,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 2,
+            "FishLevel": 9
+          },
+        ]
+      },
+      {
+        "yMax": -50.0,
+        "yMin": -65.0,
+        "FishCount": [
+          {
+            "Count": 1,
+            "FishLevel": 10
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 33,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 9
+          },
+        ]
+      },
+      {
+        "yMax": -50.0,
+        "yMin": -65.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 10
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 34,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 9
+          },
+        ]
+      },
+      {
+        "yMax": -50.0,
+        "yMin": -65.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 10
+          },
+        ]
+      }
+    ]
+  },
+  {
+    "DayId": 35,
+    "FishPerLevels": [
+      {
+        "yMax": -3.0,
+        "yMin": -15.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 1
+          },
+        ]
+      },
+      {
+        "yMax": -10.0,
+        "yMin": -20.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 2
+          },
+        ]
+      },
+      {
+        "yMax": -15.0,
+        "yMin": -25.0,
+        "FishCount": [
+          {
+            "Count": 7,
+            "FishLevel": 3
+          },
+        ]
+      },
+      {
+        "yMax": -20.0,
+        "yMin": -35.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 4
+          },
+        ]
+      },
+      {
+        "yMax": -25.0,
+        "yMin": -40.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 5
+          },
+        ]
+      },
+      {
+        "yMax": -30.0,
+        "yMin": -45.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 6
+          },
+        ]
+      },
+      {
+        "yMax": -35.0,
+        "yMin": -50.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 7
+          },
+        ]
+      },
+      {
+        "yMax": -40.0,
+        "yMin": -55.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 8
+          },
+        ]
+      },
+      {
+        "yMax": -45.0,
+        "yMin": -60.0,
+        "FishCount": [
+          {
+            "Count": 5,
+            "FishLevel": 9
+          },
+        ]
+      },
+      {
+        "yMax": -50.0,
+        "yMin": -65.0,
+        "FishCount": [
+          {
+            "Count": 3,
+            "FishLevel": 10
+          },
+        ]
+      }
+    ]
+  },
+]

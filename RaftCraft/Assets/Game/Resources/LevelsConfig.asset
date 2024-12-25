@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40bc5ea88f899c3478f21b646b68f718, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  Levels:
+  - <DayId>k__BackingField: 1
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 102900000, guid: 34f3d0ca8f03e974d81888690fd87277, type: 3}
+      _nameScene: Level_Day_1

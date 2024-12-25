@@ -1,0 +1,14 @@
+{
+    "name": "AlmostEngine.ExcludeFromBuildTool.Editor",
+    "references": [
+        "AlmostEngine",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

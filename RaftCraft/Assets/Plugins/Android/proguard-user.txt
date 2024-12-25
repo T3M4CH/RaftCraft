@@ -1,0 +1,99 @@
+-keep class com.google.android.gms.games.leaderboard.** { *; }
+-keep class com.google.android.gms.games.snapshot.** { *; }
+-keep class com.google.android.gms.games.achievement.** { *; }
+-keep class com.google.android.gms.games.event.** { *; }
+-keep class com.google.android.gms.games.stats.** { *; }
+-keep class com.google.android.gms.games.* { *; }
+-keep class com.google.android.gms.common.api.ResultCallback { *; }
+-keep class com.google.android.gms.signin.** { *; }
+-keep class com.google.android.gms.dynamic.** { *; }
+-keep class com.google.android.gms.dynamite.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+-keep class com.google.android.gms.security.** { *; }
+-keep class com.google.android.gms.base.** { *; }
+-keep class com.google.android.gms.actions.** { *; }
+-keep class com.google.games.bridge.** { *; }
+-keep class com.google.android.gms.common.ConnectionResult { *; }
+-keep class com.google.android.gms.common.GooglePlayServicesUtil { *; }
+-keep class com.google.android.gms.common.api.** { *; }
+-keep class com.google.android.gms.common.data.DataBufferUtils { *; }
+-keep class com.google.android.gms.nearby.** { *; }
+-keep class com.google.unity.**{*;}/
+-keep public class com.google.android.gms.ads.**{public *;}
+-keep public class com.google.ads.**{public *;}
+
+-dontwarn com.adjust.sdk.**
+-keep class com.adjust.sdk.** { *; }
+-keep class com.google.android.gms.common.ConnectionResult {
+    int SUCCESS;
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+    com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
+    java.lang.String getId();
+    boolean isLimitAdTrackingEnabled();
+}
+-keep public class com.android.installreferrer.** { *; }
+
+-dontwarn com.android.installreferrer
+
+# Suppress warnings
+-dontwarn com.adjust.sdk.**
+
+# ADJUST START
+
+# general
+-keepclassmembers class com.adjust.sdk.** { *; }
+-keepattributes Signature
+
+# Adjust Play Services
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+
+# adjust
+-keep public class com.adjust.sdk.** {
+  public protected *;
+}
+
+# Adjust third party sharing
+-keep public class com.google.android.gms.common.internal.**{*;} 
+-keep public class com.google.android.gms.ads.identifier.**{*;}
+
+# Adjust requires permission for device identifiers
+-keep class com.google.android.gms.common.** {*;}
+-keep class com.google.android.gms.ads.identifier.** {*;}
+
+-keepattributes *Annotation
+
+-keep class  com.gameanalytics.sdk { *; }
+-keep class  com.gameanalytics.sdk.** { *; }
+
+-keep class  com.gameanalytics.sdk.GAPlatform { *; }
+-keep class  com.gameanalytics.sdk.GAPlatform.** { *; }
+-keep class android.net.ConnectivityManager.** { *; }
+-keep class com.google.android.instantapps.InstantApps { *; }
+-keepclassmembers class com.google.android.instantapps.InstantApps { *; }
+
+# Подавление предупреждений относительно несовместимости классов версий
+-dontwarn com.yandex.metrica.**
+
+# Подавление сообщений о неиспользуемом коде и неопределенных символах
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+
+# Запрещаем удаление классов, используемых библиотекой AppMetrica
+-keep class com.yandex.metrica.** { *; }
+
+# Запрещаем переименование классов, используемых библиотекой AppMetrica
+-keepnames class com.yandex.metrica.** { *; }
+
+# Запрещаем изменение общедоступных методов, используемых библиотекой AppMetrica
+-keep public class com.yandex.metrica.** { public protected *; }
+
+# Запрещаем изменение членов классов, используемых библиотекой AppMetrica
+-keepclassmembers class com.yandex.metrica.** { *; }*

@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4440504930836740542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8163731616391184459}
+  - component: {fileID: 2305286735950591322}
+  - component: {fileID: 2563969386296548787}
+  - component: {fileID: 7678590714516883068}
+  m_Layer: 5
+  m_Name: LevelText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8163731616391184459
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440504930836740542}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6948913536932911377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -80}
+  m_SizeDelta: {x: 0, y: 26}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &2305286735950591322
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440504930836740542}
+  m_CullTransparentMesh: 1
+--- !u!114 &2563969386296548787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440504930836740542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Day 3
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: b5e19d127ca5f6143a3f0fd127b31c64, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: ec5d0d9d8091a6242a76d76599a84cbc, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294966520
+  m_fontColor: {r: 0.972549, g: 0.9882353, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7678590714516883068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440504930836740542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 0
+--- !u!1 &5177183912256037909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6948913536932911377}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6948913536932911377
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177183912256037909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8163731616391184459}
+  - {fileID: 295997847256721696}
+  m_Father: {fileID: 3449166129542855061}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &6992915726780890742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3449166129542855061}
+  - component: {fileID: 1802228449566471971}
+  - component: {fileID: 4610450059011929908}
+  - component: {fileID: 1890413721839730600}
+  m_Layer: 5
+  m_Name: '[WindowDayProgress]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3449166129542855061
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992915726780890742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6948913536932911377}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1802228449566471971
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992915726780890742}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &4610450059011929908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992915726780890742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97afc556caea1c44969477eb7ddec74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Panel: {fileID: 3449166129542855061}
+  m_HorizontalConstraintType: 1
+  m_HorizontalConstraint: 2
+  m_VerticalConstraintType: 1
+  m_VerticalConstraint: 2
+  m_DefaultAnchorMin: {x: 0, y: 0}
+  m_DefaultAnchorMax: {x: 1, y: 1}
+--- !u!114 &1890413721839730600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992915726780890742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b4a1fa96700de45b05a77f51708d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <backGround>k__BackingField: {fileID: 0}
+  <content>k__BackingField: {fileID: 6948913536932911377}
+  _delay: 0.5
+  _duration: 0.3
+  _canvasGroup: {fileID: 1802228449566471971}
+--- !u!1 &7034101718156373179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295997847256721696}
+  - component: {fileID: 6645933472865451840}
+  - component: {fileID: 8288156074845358112}
+  - component: {fileID: 1788759963354128400}
+  - component: {fileID: 4928165764086921794}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &295997847256721696
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034101718156373179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6948913536932911377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -124}
+  m_SizeDelta: {x: 298, y: 76}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &6645933472865451840
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034101718156373179}
+  m_CullTransparentMesh: 1
+--- !u!114 &8288156074845358112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034101718156373179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.003921569, g: 0.06666667, b: 0.10980392, a: 0.29803923}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a2e945a3af214d04dbaca306c3b7c3f0, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1788759963354128400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034101718156373179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 15
+    m_Right: 15
+    m_Top: 24
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_Spacing: 4
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &4928165764086921794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034101718156373179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01247b1a0be016a4cb52399c9c81697e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startOffset: 4
+  _columnCount: 8
+  _columnsParent: {fileID: 295997847256721696}
+  _columnDayInfo: {fileID: 1737795330203498239, guid: 09371efdab0b20c4caf1bdc69c33143a,
+    type: 3}
+  _levelText: {fileID: 2563969386296548787}
+  _canvasGroup: {fileID: 1802228449566471971}
+  _levelStructs:
+  - <DayId>k__BackingField: 1
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 2
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 3
+    <DayType>k__BackingField: 7
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 4
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 5
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 6
+    <DayType>k__BackingField: 8
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 7
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 8
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 9
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 10
+    <DayType>k__BackingField: 6
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 11
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 12
+    <DayType>k__BackingField: 1
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 13
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 14
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 15
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 16
+    <DayType>k__BackingField: 3
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 17
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 18
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 19
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 20
+    <DayType>k__BackingField: 1
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 21
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 22
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 23
+    <DayType>k__BackingField: 5
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 24
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 25
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 26
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 27
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 28
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 29
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 30
+    <DayType>k__BackingField: 4
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 31
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 32
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 33
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 34
+    <DayType>k__BackingField: 0
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 
+  - <DayId>k__BackingField: 35
+    <DayType>k__BackingField: 1
+    <BiomeType>k__BackingField: 0
+    <Scene>k__BackingField:
+      _assetScene: {fileID: 0}
+      _nameScene: 

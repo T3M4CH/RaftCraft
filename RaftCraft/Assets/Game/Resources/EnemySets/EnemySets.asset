@@ -1,0 +1,1257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa7fa57a64a466dbfecec9604bdcdf6, type: 3}
+  m_Name: EnemySets
+  m_EditorClassIdentifier: 
+  <EnemySetPerDay>k__BackingField:
+  - <DayId>k__BackingField: 1
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 1
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 2
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 3
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 1
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 4
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 2
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 5
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 1
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 6
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 1
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 7
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 2
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 8
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 2
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 9
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 3
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 10
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 2
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 11
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 3
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 12
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 3
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 13
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 4
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 14
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 4
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 15
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 4
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 16
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 139c458172655704283b26659453ebc7, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 5
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 17
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: f852ebaaaa5de12418d9e51251456c8c, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 18
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 6
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 4
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 19
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 5
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 20
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 9
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 21
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 8
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 22
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 5
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 23
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 5
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 24
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 25
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 8
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 26
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 9
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 27
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 8
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 28
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 29
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 5
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 30
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 9
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 31
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 32
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 7149f19117108fa46b46a0c51e1e3b46,
+        type: 3}
+      <Amount>k__BackingField: 2
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 8
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 33
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: eb9f36da3aecad44bb135d48a9854a12,
+        type: 3}
+      <Amount>k__BackingField: 3
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 7
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 34
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: -7624676587293142781, guid: b1f9c8d02e691d34ba83608c0bd2d5e0,
+        type: 3}
+      <Amount>k__BackingField: 10
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+  - <DayId>k__BackingField: 35
+    <EnemyRaft>k__BackingField:
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    - {fileID: 2895867930495500062, guid: 9c2caea1bba93d74a96e55c9e5794d59, type: 3}
+    <Queue>k__BackingField:
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 45b5e5f8d963c3b40acdacaad60ec39a,
+        type: 3}
+      <Amount>k__BackingField: 1
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 4bde9d10c0b825c498d6d92bf98e326e,
+        type: 3}
+      <Amount>k__BackingField: 7
+    - <Human>k__BackingField: {fileID: 1150064892613177610, guid: 5f7c4bd94b7d02843aacecf620e12fd4,
+        type: 3}
+      <Amount>k__BackingField: 4
+    - <Human>k__BackingField: {fileID: 7160625026929829802, guid: 421dadbe89150a645b43961e2edf080d,
+        type: 3}
+      <Amount>k__BackingField: 9
+    <DropItems>k__BackingField:
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1
+    - <ResourceType>k__BackingField: 13
+      <Count>k__BackingField: 1

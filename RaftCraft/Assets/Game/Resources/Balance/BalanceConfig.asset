@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b4521662a834148bdcb879b0a0368eb, type: 3}
+  m_Name: BalanceConfig
+  m_EditorClassIdentifier: 
+  _configs:
+  - Day: 1
+    MultipleHealsPirate: 25
+    MultipleDamagePirate: 0
+    MultipleSpeedMovePirate: 10
+  - Day: 6
+    MultipleHealsPirate: 35
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 15
+  - Day: 7
+    MultipleHealsPirate: 50
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 20
+  - Day: 10
+    MultipleHealsPirate: 50
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 15
+  - Day: 11
+    MultipleHealsPirate: 60
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 0
+  - Day: 13
+    MultipleHealsPirate: 60
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 0
+  - Day: 15
+    MultipleHealsPirate: 65
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 5
+  - Day: 17
+    MultipleHealsPirate: 75
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 5
+  - Day: 19
+    MultipleHealsPirate: 85
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 5
+  - Day: 20
+    MultipleHealsPirate: 50
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 5
+  - Day: 21
+    MultipleHealsPirate: 90
+    MultipleDamagePirate: 40
+    MultipleSpeedMovePirate: 5
+  - Day: 23
+    MultipleHealsPirate: 100
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 15
+  - Day: 26
+    MultipleHealsPirate: 125
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 5
+  - Day: 28
+    MultipleHealsPirate: 150
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 10
+  - Day: 30
+    MultipleHealsPirate: 175
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 10
+  - Day: 32
+    MultipleHealsPirate: 200
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 20
+  - Day: 35
+    MultipleHealsPirate: 250
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 40
+    MultipleHealsPirate: 275
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 45
+    MultipleHealsPirate: 425
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 50
+    MultipleHealsPirate: 500
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 60
+    MultipleHealsPirate: 550
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 70
+    MultipleHealsPirate: 600
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 80
+    MultipleHealsPirate: 625
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 90
+    MultipleHealsPirate: 650
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23
+  - Day: 100
+    MultipleHealsPirate: 700
+    MultipleDamagePirate: 50
+    MultipleSpeedMovePirate: 23

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccce4ad9e1c99904181946ef853afb7e, type: 3}
+  m_Name: QuestsPerDay
+  m_EditorClassIdentifier: 
+  <QuestPerDays>k__BackingField:
+  - <DayId>k__BackingField: 1
+    <QuestPrefab>k__BackingField: {fileID: 3467029085821200502, guid: 9772c95b26b95c34ab30251c2b3e8425,
+      type: 3}
+    <ExtraParams>k__BackingField:
+    - {fileID: 0}
+  - <DayId>k__BackingField: 10
+    <QuestPrefab>k__BackingField: {fileID: 3522715512075242510, guid: 5fc738e3cc1e2fd4fa96fbc57631da31,
+      type: 3}
+    <ExtraParams>k__BackingField:
+    - {fileID: 0}
+  - <DayId>k__BackingField: 6
+    <QuestPrefab>k__BackingField: {fileID: 2503454757922727612, guid: ae021486204a20046945050b43aca550,
+      type: 3}
+    <ExtraParams>k__BackingField:
+    - {fileID: 0}

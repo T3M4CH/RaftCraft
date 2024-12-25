@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4994894032312263051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9039257159110162891}
+  - component: {fileID: 5396017777788400790}
+  - component: {fileID: 3274578608436574428}
+  m_Layer: 0
+  m_Name: ProjectScope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9039257159110162891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994894032312263051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5396017777788400790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994894032312263051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238ee66aa2bafad47bf60938e98aebca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3274578608436574428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994894032312263051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248812e1b2f44d345a289ba16a754469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PrefabCellSettings>k__BackingField: {fileID: 4888778306365278276, guid: e79b9988754ddf145a33910e6fa58a60,
+    type: 3}
+  <SaveManager>k__BackingField: {fileID: 1175071117532603416, guid: 9a577bbbb8c2da64f87ffff2e6d5d485,
+    type: 3}
+  _soundManagerSettings:
+    <FightMusic>k__BackingField: {fileID: 11400000, guid: 2701ebb2a7f04d1438a7c2f51ec67abc,
+      type: 2}
+    <PeacefulMusic>k__BackingField: {fileID: 11400000, guid: df4dfe42846985e4b8b347eef5692517,
+      type: 2}
+    <MusicMixer>k__BackingField: {fileID: -8361183948451267528, guid: 76331f52067170d438d5b5e911ba3fed,
+      type: 2}
+    <SoundsMixer>k__BackingField: {fileID: -5791828950565261715, guid: 76331f52067170d438d5b5e911ba3fed,
+      type: 2}
+  camerasSettings:
+    <MainCameraBrain>k__BackingField: {fileID: 1096429750669683584, guid: c6f1ad42af2508744b02c9071d821231,
+      type: 3}
+    <Cameras>k__BackingField:
+    - {fileID: 3152014222948123099, guid: 0255bd836c704684bb9e2bd1d6e8b241, type: 3}
+    - {fileID: 1482033078382901847, guid: a310feec1eb491d439955114aa57dd8e, type: 3}
+    - {fileID: 7214434275079317021, guid: 417950c13b75fdb458b81b5906d64f0e, type: 3}
+  _settingComponents:
+    <IconSound>k__BackingField: {fileID: 21300000, guid: 608be36ee0d7da54aa6c0b77f43bcc7a,
+      type: 3}
+    <IconMusic>k__BackingField: {fileID: 21300000, guid: 7cc90fc979d94424a83719475d885ca7,
+      type: 3}
+    <IconHaptic>k__BackingField: {fileID: 21300000, guid: e0bdb6f6f6fce964588aec98809f2841,
+      type: 3}
+    <IconSoundDisabled>k__BackingField: {fileID: 21300000, guid: 5d95162b0ef6676449d1fb965fd51472,
+      type: 3}
+    <IconMusicDisabled>k__BackingField: {fileID: 21300000, guid: ff60bd7064ee05140aea761f4f51d952,
+      type: 3}
+    <IconHapticDisabled>k__BackingField: {fileID: 21300000, guid: 64102a83f02f0b9498fdc142e9105fc8,
+      type: 3}
+  _weapons:
+  - {fileID: 11400000, guid: a13660def53872943957629072d003de, type: 2}
+  - {fileID: 11400000, guid: d9fc6789afc33d843928ababc904f537, type: 2}
+  - {fileID: 11400000, guid: c18f13b98a73dfa4e8a43753bcbfa155, type: 2}
+  _weaponShopData: {fileID: 11400000, guid: fd8d173646e7fe148a52aaa1efe57541, type: 2}
+  _prefabManager: {fileID: 7483550600060881165, guid: 0a87783a43fb6114ab7ab7c1ec994aae,
+    type: 3}

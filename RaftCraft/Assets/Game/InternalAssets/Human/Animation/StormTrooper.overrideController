@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StormTrooper
+  m_Controller: {fileID: 9100000, guid: 2ea2bb3b7a9f73246aede35e223cab6d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 42eeeb9d99acd2346bd44140ebe58925, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 99fcc07eb04e9b941b7e4d895d994107, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d347a43c02907b441b22d20357b805c2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 99fcc07eb04e9b941b7e4d895d994107, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0523df88f85dacd418a87f9f02585199, type: 3}
+  m_Name: Collect
+  m_EditorClassIdentifier: 
+  _audioClips:
+  - {fileID: 8300000, guid: f0040e2d9319d254c8f7f55cead5188e, type: 3}
+  _settings:
+    _assetType: 1
+    _audioMixer: {fileID: -5791828950565261715, guid: 76331f52067170d438d5b5e911ba3fed,
+      type: 2}
+    _isLoop: 0
+    _volume: 0.5
+    _isRandomSound: 0
+    _playOnEnabled: 0
+    _waitPlay: 0
+    _spatialBlend: 0
+    _minDistance: 0
+    _maxDistence: 0
+  hapticPattern: 0

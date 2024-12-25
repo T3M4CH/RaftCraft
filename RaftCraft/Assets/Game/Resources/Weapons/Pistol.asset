@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d650c043e5a7294fb57230cf94d7d7a, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  _assetLoaded: {fileID: 4900000, guid: c359087ba9b8145449b5127b39c2cfbe, type: 3}
+  <CurrentId>k__BackingField: 0
+  _levelUpgrade:
+  - <Cost>k__BackingField: 0
+    <Damage>k__BackingField: 4
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.5
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 5
+  - <Cost>k__BackingField: 3
+    <Damage>k__BackingField: 5
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.48
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 7
+  - <Cost>k__BackingField: 15
+    <Damage>k__BackingField: 6
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.46
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 9
+  - <Cost>k__BackingField: 25
+    <Damage>k__BackingField: 8
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.44
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 11
+  - <Cost>k__BackingField: 50
+    <Damage>k__BackingField: 10
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.42
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 13
+  - <Cost>k__BackingField: 75
+    <Damage>k__BackingField: 12
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.4
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 15
+  - <Cost>k__BackingField: 100
+    <Damage>k__BackingField: 14
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.38
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 17
+  - <Cost>k__BackingField: 125
+    <Damage>k__BackingField: 16
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.36
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 19
+  - <Cost>k__BackingField: 150
+    <Damage>k__BackingField: 18
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.34
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 21
+  - <Cost>k__BackingField: 200
+    <Damage>k__BackingField: 20
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.32
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 23
+  - <Cost>k__BackingField: 300
+    <Damage>k__BackingField: 22
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 25
+  - <Cost>k__BackingField: 400
+    <Damage>k__BackingField: 23
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 27
+  - <Cost>k__BackingField: 500
+    <Damage>k__BackingField: 24
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 29
+  - <Cost>k__BackingField: 600
+    <Damage>k__BackingField: 25
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 31
+  - <Cost>k__BackingField: 700
+    <Damage>k__BackingField: 26
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 33
+  - <Cost>k__BackingField: 800
+    <Damage>k__BackingField: 27
+    <DistanceAttack>k__BackingField: 8
+    <TimeReload>k__BackingField: 0.3
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 33
+  <PrefabBullet>k__BackingField: {fileID: 7551688023724050202, guid: 01c08943542a4c1448fd4620ebb29cab,
+    type: 3}

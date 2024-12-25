@@ -1,0 +1,947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b268206d1b8940a490669dab643f4de6, type: 3}
+  m_Name: SummerFish
+  m_EditorClassIdentifier: 
+  textAsset: {fileID: 4900000, guid: f005febbe9f47d64494a19e49c593dec, type: 3}
+  <FishConfig>k__BackingField: {fileID: 11400000, guid: f1ca33f45d09e014bb8aca4b2547df9c,
+    type: 2}
+  <FishPerDays>k__BackingField:
+  - <DayId>k__BackingField: 0
+    <FishPerLevels>k__BackingField: []
+  - <DayId>k__BackingField: 1
+    <FishPerLevels>k__BackingField: []
+  - <DayId>k__BackingField: 2
+    <FishPerLevels>k__BackingField:
+    - yMax: 0
+      yMin: 0
+      <FishCount>k__BackingField: []
+  - <DayId>k__BackingField: 3
+    <FishPerLevels>k__BackingField:
+    - yMax: 0
+      yMin: 0
+      <FishCount>k__BackingField: []
+  - <DayId>k__BackingField: 4
+    <FishPerLevels>k__BackingField:
+    - yMax: 0
+      yMin: 0
+      <FishCount>k__BackingField: []
+  - <DayId>k__BackingField: 5
+    <FishPerLevels>k__BackingField:
+    - yMax: 0
+      yMin: 0
+      <FishCount>k__BackingField: []
+  - <DayId>k__BackingField: 6
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -10
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 1
+  - <DayId>k__BackingField: 7
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 2
+  - <DayId>k__BackingField: 8
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+  - <DayId>k__BackingField: 9
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+  - <DayId>k__BackingField: 10
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 3
+  - <DayId>k__BackingField: 11
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 3
+  - <DayId>k__BackingField: 12
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 3
+  - <DayId>k__BackingField: 13
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 4
+  - <DayId>k__BackingField: 14
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 4
+  - <DayId>k__BackingField: 15
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 4
+  - <DayId>k__BackingField: 16
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 4
+  - <DayId>k__BackingField: 17
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 4
+  - <DayId>k__BackingField: 18
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 4
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 5
+  - <DayId>k__BackingField: 19
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 4
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 5
+  - <DayId>k__BackingField: 20
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 4
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 5
+  - <DayId>k__BackingField: 21
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 4
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 5
+  - <DayId>k__BackingField: 22
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 4
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 5
+  - <DayId>k__BackingField: 23
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 6
+  - <DayId>k__BackingField: 24
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 6
+  - <DayId>k__BackingField: 25
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 7
+  - <DayId>k__BackingField: 26
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 7
+  - <DayId>k__BackingField: 27
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 7
+  - <DayId>k__BackingField: 28
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 8
+  - <DayId>k__BackingField: 29
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 8
+  - <DayId>k__BackingField: 30
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 9
+  - <DayId>k__BackingField: 31
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 9
+    - yMax: -50
+      yMin: -65
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 1
+        <FishLevel>k__BackingField: 10
+  - <DayId>k__BackingField: 32
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 2
+        <FishLevel>k__BackingField: 9
+    - yMax: -50
+      yMin: -65
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 1
+        <FishLevel>k__BackingField: 10
+  - <DayId>k__BackingField: 33
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 9
+    - yMax: -50
+      yMin: -65
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 10
+  - <DayId>k__BackingField: 34
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 9
+    - yMax: -50
+      yMin: -65
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 10
+  - <DayId>k__BackingField: 35
+    <FishPerLevels>k__BackingField:
+    - yMax: -3
+      yMin: -15
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 1
+    - yMax: -10
+      yMin: -20
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 2
+    - yMax: -15
+      yMin: -25
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 7
+        <FishLevel>k__BackingField: 3
+    - yMax: -20
+      yMin: -35
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 4
+    - yMax: -25
+      yMin: -40
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 5
+    - yMax: -30
+      yMin: -45
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 6
+    - yMax: -35
+      yMin: -50
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 7
+    - yMax: -40
+      yMin: -55
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 8
+    - yMax: -45
+      yMin: -60
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 5
+        <FishLevel>k__BackingField: 9
+    - yMax: -50
+      yMin: -65
+      <FishCount>k__BackingField:
+      - <Count>k__BackingField: 3
+        <FishLevel>k__BackingField: 10

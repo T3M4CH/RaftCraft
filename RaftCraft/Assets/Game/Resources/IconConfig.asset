@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65053cfc7caaf124f9b0b3ac0ea4e3c6, type: 3}
+  m_Name: IconConfig
+  m_EditorClassIdentifier: 
+  _itemIcons:
+  - <Type>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 21300000, guid: aede842c3bb0c144f93765b22102de0f,
+      type: 3}
+  - <Type>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: eae7c748f2983ac4ca576369ce48763f,
+      type: 3}
+  - <Type>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: 21300000, guid: c03df61b067c1544b962a5b28e37ca91,
+      type: 3}
+  - <Type>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: fb54ea369bd75d445a26612b077df52c,
+      type: 3}
+  - <Type>k__BackingField: 4
+    <Icon>k__BackingField: {fileID: 21300000, guid: 638e4e13f1ae64345a1919c691fcc42a,
+      type: 3}
+  - <Type>k__BackingField: 5
+    <Icon>k__BackingField: {fileID: 21300000, guid: 8e3731df420704f4ebf91e424e032937,
+      type: 3}
+  - <Type>k__BackingField: 6
+    <Icon>k__BackingField: {fileID: 21300000, guid: a02b3ac3b08058c4bab38fe7ca12dd79,
+      type: 3}
+  - <Type>k__BackingField: 7
+    <Icon>k__BackingField: {fileID: 21300000, guid: b00d5ff699efe4f4db0a6c0120e1cc44,
+      type: 3}
+  - <Type>k__BackingField: 8
+    <Icon>k__BackingField: {fileID: 21300000, guid: db3a8bd886b57874cab1e43ecf443540,
+      type: 3}
+  - <Type>k__BackingField: 9
+    <Icon>k__BackingField: {fileID: 21300000, guid: 6aa580c2596410b4daf9a9ab5ab0b622,
+      type: 3}
+  - <Type>k__BackingField: 10
+    <Icon>k__BackingField: {fileID: 21300000, guid: f578d08d57f510144bd1228e83fad61e,
+      type: 3}
+  - <Type>k__BackingField: 11
+    <Icon>k__BackingField: {fileID: 21300000, guid: 8f137e307efefeb4c8dcc8181d569d46,
+      type: 3}
+  - <Type>k__BackingField: 12
+    <Icon>k__BackingField: {fileID: 21300000, guid: 5de2934f4d7f08b4ab95756401eebfc6,
+      type: 3}
+  - <Type>k__BackingField: 13
+    <Icon>k__BackingField: {fileID: 21300000, guid: 56ba93b65299de5448368e7f1196eb47,
+      type: 3}
+  _itemIconsUi:
+  - <Type>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 21300000, guid: 9ce2387da7824574bbe5983a3512b2c5,
+      type: 3}
+  - <Type>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 18e14edc04768c544a0597a752b8f458,
+      type: 3}
+  - <Type>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: 21300000, guid: 19f15f223c2a31442972ba9d54c756dc,
+      type: 3}
+  - <Type>k__BackingField: 13
+    <Icon>k__BackingField: {fileID: 21300000, guid: 02551bad75317dc45aff00480861f48d,
+      type: 3}
+  - <Type>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: 546085c4ca5b84c48aa65b65c64f4c44,
+      type: 3}
+  - <Type>k__BackingField: 4
+    <Icon>k__BackingField: {fileID: 21300000, guid: 33928d22f0985ba4ca5c21f0965bdca8,
+      type: 3}
+  - <Type>k__BackingField: 5
+    <Icon>k__BackingField: {fileID: 21300000, guid: fd52b7ba3cf24fd4f88b815cf73a5449,
+      type: 3}
+  - <Type>k__BackingField: 6
+    <Icon>k__BackingField: {fileID: 21300000, guid: ff70b05b9f2f3c14d9d1dc1f17ffe553,
+      type: 3}
+  - <Type>k__BackingField: 7
+    <Icon>k__BackingField: {fileID: 21300000, guid: c21461737f54d0d42b588738dcb6ea99,
+      type: 3}
+  - <Type>k__BackingField: 8
+    <Icon>k__BackingField: {fileID: 21300000, guid: c219d4338e2940343b5d261fc3712d16,
+      type: 3}
+  - <Type>k__BackingField: 9
+    <Icon>k__BackingField: {fileID: 21300000, guid: 6564610d563396f4a8c47e3ab9b35836,
+      type: 3}
+  - <Type>k__BackingField: 10
+    <Icon>k__BackingField: {fileID: 21300000, guid: 54c4beeb8f9c8274190d8f0138e7c2b3,
+      type: 3}
+  - <Type>k__BackingField: 11
+    <Icon>k__BackingField: {fileID: 21300000, guid: 5a834fe7cb372124681f0ebaf1237316,
+      type: 3}
+  - <Type>k__BackingField: 12
+    <Icon>k__BackingField: {fileID: 21300000, guid: 51a629b4abe72dc40b1fbec142b4bb46,
+      type: 3}
+  - <Type>k__BackingField: 14
+    <Icon>k__BackingField: {fileID: 21300000, guid: c21461737f54d0d42b588738dcb6ea99,
+      type: 3}
+  _weaponIcons:
+  - <Type>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 21300000, guid: 77cae44774635ad4085718b599ff3fc4,
+      type: 3}
+  - <Type>k__BackingField: 1
+    <Icon>k__BackingField: {fileID: 21300000, guid: 958381982ce2671449b06dd1ff97c96a,
+      type: 3}
+  - <Type>k__BackingField: 2
+    <Icon>k__BackingField: {fileID: 21300000, guid: ae9086bd92aa0a741904269249ceed65,
+      type: 3}
+  - <Type>k__BackingField: 3
+    <Icon>k__BackingField: {fileID: 21300000, guid: 46cc63f0c0378834c831e8b0702871bd,
+      type: 3}
+  <HomeIcon>k__BackingField: {fileID: 21300000, guid: 5a485bde05e3d774b89520d793ab92dd,
+    type: 3}
+  <TombIcon>k__BackingField: {fileID: 21300000, guid: be57ec8a0cad7814e9edd82925d1d6fd,
+    type: 3}
+  <OxygenIcon>k__BackingField: {fileID: 21300000, guid: eb7282c8192f0f64e9f6360021f478f0,
+    type: 3}
+  <MaxDepthIcon>k__BackingField: {fileID: 21300000, guid: 12d4a37c0a648894f9c5d0c20e592f90,
+    type: 3}
+  <WaterSpeedIcon>k__BackingField: {fileID: 21300000, guid: 96e31198fb49ebe4d97252ea87ad5607,
+    type: 3}
+  <FishLevel>k__BackingField: {fileID: 21300000, guid: 99434331e6b1fd84ca9d2f9f8c1f6531,
+    type: 3}
+  <HammerIcon>k__BackingField: {fileID: 21300000, guid: 999ca5286798e0c4f8c4463f7fda5fec,
+    type: 3}
+  <WoodIcon>k__BackingField: {fileID: 21300000, guid: 56ba93b65299de5448368e7f1196eb47,
+    type: 3}

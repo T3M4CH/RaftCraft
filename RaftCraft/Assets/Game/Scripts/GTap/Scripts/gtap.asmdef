@@ -1,0 +1,16 @@
+{
+    "name": "gtap",
+    "rootNamespace": "",
+    "references": [
+        "GUID:02b2eb810be26234680174e94978f73f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

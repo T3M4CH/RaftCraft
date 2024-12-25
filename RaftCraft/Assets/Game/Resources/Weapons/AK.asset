@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d650c043e5a7294fb57230cf94d7d7a, type: 3}
+  m_Name: AK
+  m_EditorClassIdentifier: 
+  _assetLoaded: {fileID: 4900000, guid: 9ba4e7a70b954584cb0ca3676a9c6c41, type: 3}
+  <CurrentId>k__BackingField: 2
+  _levelUpgrade:
+  - <Cost>k__BackingField: 0
+    <Damage>k__BackingField: 3
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.25
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 5
+  - <Cost>k__BackingField: 75
+    <Damage>k__BackingField: 4.5
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.23
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 7
+  - <Cost>k__BackingField: 175
+    <Damage>k__BackingField: 6
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.2
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 9
+  - <Cost>k__BackingField: 200
+    <Damage>k__BackingField: 7.5
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.18
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 11
+  - <Cost>k__BackingField: 300
+    <Damage>k__BackingField: 9
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.16
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 13
+  - <Cost>k__BackingField: 350
+    <Damage>k__BackingField: 10.5
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.14
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 15
+  - <Cost>k__BackingField: 400
+    <Damage>k__BackingField: 12
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.12
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 17
+  - <Cost>k__BackingField: 500
+    <Damage>k__BackingField: 13.5
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 19
+  - <Cost>k__BackingField: 600
+    <Damage>k__BackingField: 15
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 21
+  - <Cost>k__BackingField: 700
+    <Damage>k__BackingField: 16.5
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 23
+  - <Cost>k__BackingField: 800
+    <Damage>k__BackingField: 18
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 25
+  - <Cost>k__BackingField: 900
+    <Damage>k__BackingField: 19
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 27
+  - <Cost>k__BackingField: 1000
+    <Damage>k__BackingField: 20
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 29
+  - <Cost>k__BackingField: 1100
+    <Damage>k__BackingField: 21
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 31
+  - <Cost>k__BackingField: 1200
+    <Damage>k__BackingField: 22
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 33
+  - <Cost>k__BackingField: 1300
+    <Damage>k__BackingField: 23
+    <DistanceAttack>k__BackingField: 10
+    <TimeReload>k__BackingField: 0.1
+    <Spread>k__BackingField: 0.1
+    <ChangeCritical>k__BackingField: 35
+  <PrefabBullet>k__BackingField: {fileID: 7551688023724050202, guid: 01c08943542a4c1448fd4620ebb29cab,
+    type: 3}
